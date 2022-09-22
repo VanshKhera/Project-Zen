@@ -57,16 +57,10 @@ body{
     margin: 0 auto;
     padding-left: 50px;
     top: 100px;
-    font-family: 'Baumans';
     font-style: normal;
     font-weight: 400;
     font-size: 120px;
     line-height: 120px;
-
-    color: #321919;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .secondary{
     color: #FAFBFD;
@@ -96,21 +90,26 @@ body{
   }
   .description{
     font-size: 20px;
-    position: inherit;
-    line-height: 50px;
+    text-style: none;
+    line-height: 30px;
   }
   .docs{
     position: absolute;
     top: 100px;
     left: 300px;
-    font-size: 70px;
+    font-size: 54px;
   }
   .sidebar{
-    background-color: rgb(103, 103, 103);
+    padding: 13px 32px;
+    background-color: #D3D3D3;
     width: 250px;
+    overflow: scroll;
+    height: 100vh;
+
+
   }
   .sidebar li a{
-    color: white;
+    color: black;
     line-height: 35px;
     text-decoration: none;
   }
@@ -182,4 +181,8 @@ body{
   .responsive-li {
   display: flex !important;
   align-items: flex-start;
+  }
+
+  .s-li{
+    list-style: none;
   }
