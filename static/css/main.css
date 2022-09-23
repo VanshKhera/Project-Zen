@@ -11,6 +11,22 @@ body{
 ::-webkit-scrollbar {
   display: none;
 }
+.copycode{
+  font-size: 50px;
+  text-decoration: underline;
+  cursor: pointer;
+  left: 500px;
+  position: absolute;
+  top: 150px;
+}
+.copycode:hover{
+  rotate: 10deg;
+  font-size: 100px;
+
+}
+.copycode:active{
+  color: green;
+}
 :root{
     --dark-nav-bg: #1D1D1D;
     --dark-bg: #222;
