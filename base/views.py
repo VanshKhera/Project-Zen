@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from docs.views import main
 # Create your views here.
 
 def home(request):
@@ -9,3 +10,6 @@ def home(request):
 
 def code(request):
     return render(request, 'code.html')
+
+def documentation(request):
+    return render(request, 'docs.html')
