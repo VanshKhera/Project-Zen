@@ -7,6 +7,7 @@ figma file for the same */
 }
 body{
   background: linear-gradient(to right, #ffffff, #f4effd);
+  height: 5850px;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -63,9 +64,15 @@ body{
     background: linear-gradient(to right, #dbe6f3, #ddd1f6);
   }
   .navbar {
-    z-index: 9999;
+    z-index: 990099;
     display: flex;
     height: 80px;
+    opacity: 95%;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(500px);
+    position: sticky;
+    top: 0;
+    bottom: 999999;
     align-items: center;
     justify-content: space-between;
     /* background-color: var(--dark-nav-bg); */
@@ -106,6 +113,9 @@ body{
     transform-origin: bottom right;
     transition : transform 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   }
+  a{
+    text-decoration: none;
+  }
   .secondary:hover::after {
     transition: all inherit 0.1s;
     transform-origin: bottom left;
@@ -130,7 +140,7 @@ body{
     overflow: scroll;
     height: 100vh;
     position: sticky;
-    top: 0;
+    top: 80px;
 
   }
   .sidebar li a{
@@ -141,12 +151,47 @@ body{
   .sidebar ol a{
     padding-left: 1em;
   }
+  
   .subheading{
     position: absolute;
-    top: 1100px;
+    top: 1000px;
+    right: 300px;
+    left: 300px;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline rgb(255, 195, 56);
+    padding-bottom: 5px;
+    padding-left: 0px;
   }
   button {
     all: initial;
+  }
+  img{
+    height: 400px;
+    z-index: 99999;
+    position:absolute;
+    top: 170px;
+    right: 50px;
+    border-radius: 5%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.5,1,-.5,-1);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 19px); }
+    100%   { transform: translate(0, -0px); }   
+}
+  hr{
+    position: absolute;
+    top: 150px;
+    bottom: 500px;
+    z-index: 99999999;
   }
   .secondary:hover{
     cursor:pointer;
