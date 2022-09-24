@@ -4,7 +4,7 @@
 
 # Project-Zen
 <p align="center">
-  <b>Version</b>: Pre_Alpha0.0.2
+  <b>Version</b>: Pre_Alpha0.1
 </p>
 
 
@@ -22,7 +22,9 @@ Including beautiful default styles, flexible, and instantly deployable templates
 
 **PROJECT SCREENSHOTS:**
 
-![image](https://user-images.githubusercontent.com/101040789/191004443-86b7398b-2cb0-4e6b-a962-14b76686dc57.png)
+![image](https://user-images.githubusercontent.com/101040789/192085143-72f97c3c-7c78-4924-a6dd-4d65b733bff7.png)
+![image](https://user-images.githubusercontent.com/101040789/192085147-96f5b103-9479-4b7b-8533-8a19c491b2c1.png)
+
 
 Color Pallete: https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 <br><br>
