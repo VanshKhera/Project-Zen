@@ -11,12 +11,7 @@
 <body>
 <!-- navbar -->
     <nav class="navbar">
-      <div class="logo-container">
-          <a href="{% url 'home' %}"><div class="logo">Project Zen</div></a>
-      </div>
-      <div class="hamburger"></div>
-      <button type="button">
-        <div class="hamburger">
+      <button class="ham-button" type="button">
           <svg width="50px" height="50px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
@@ -25,8 +20,11 @@
                 fill="currentColor"
               />
             </svg>
-        </div>
       </button>
+        <div style="width: 45px;"></div>
+      <div class="logo-container">
+          <a href="{% url 'home' %}"><div class="logo">Project Zen</div></a>
+      </div>
     </nav>
 <!-- docs -->
  <h3 class="heading docs">{% block heading %}{% endblock %}
@@ -35,42 +33,22 @@
 
 <div class="sidebar">
     <ul class="s-li">
-        <li><a href="">Heading 1</a></li>
-        <li><a href="">Heading 2</a>
+        <li><a href="">Buttons</a></li>
+        <li><a href=""></a>
             <ol class="s-li">
                 <li><a href="">subheading 1</a></li>
                 <li><a href="">subheading 2</a></li>
                 <li><a href="">subheading 3</a></li>
             </ol>
         </li>
-        <li><a href="">hi2</a>
+        <li><a href="">Div</a>
             <ol class="s-li">
-                <li><a href="">sdad</a></li>
-                <li><a href="">sdasd</a></li>
-                <li><a href="">sdasdsdd</a></li>
-                <li><a href="">s</a></li>
-                <li><a href="">dd</a></li>
+                <li><a href="">Cards</a></li>
+                <li><a href="">Square</a></li>
+                <li><a href="">Rectangle</a></li>
+                <li><a href="">Circle</a></li>
             </ol>
         </li>
-        <li><a href="">hi2</a>
-            <ol class="s-li">
-                <li><a href="">sdad</a></li>
-                <li><a href="">sdasd</a></li>
-                <li><a href="">sdasdsdd</a></li>
-                <li><a href="">s</a></li>
-                <li><a href="">dd</a></li>
-            </ol>
-        </li>
-        <li><a href="">hi2</a>
-            <ol class="s-li">
-                <li><a href="">sdad</a></li>
-                <li><a href="">sdasd</a></li>
-                <li><a href="">sdasdsdd</a></li>
-                <li><a href="">s</a></li>
-                <li><a href="">dd</a></li>
-            </ol>
-        </li>
-        
     </ul>
 </div>
     </body>

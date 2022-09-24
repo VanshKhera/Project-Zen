@@ -22,11 +22,9 @@ Including beautiful default styles, flexible, and instantly deployable templates
 
 **PROJECT SCREENSHOTS:**
 
-![image](https://user-images.githubusercontent.com/101040789/192085143-72f97c3c-7c78-4924-a6dd-4d65b733bff7.png)
-![image](https://user-images.githubusercontent.com/101040789/192085147-96f5b103-9479-4b7b-8533-8a19c491b2c1.png)
+![image](https://user-images.githubusercontent.com/75296139/192101183-b1a4add8-7d11-4204-a4e6-e1260e023744.png)
+![image](https://user-images.githubusercontent.com/75296139/192101869-e787891a-2685-4daa-96ce-6823d81dc368.png)
 
-
-Color Pallete: https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 <br><br>
 **HOW TO DEPLOY**
 Coming Soon!

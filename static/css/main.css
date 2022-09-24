@@ -163,8 +163,9 @@ body{
     padding-bottom: 5px;
     padding-left: 0px;
   }
-  button {
+  .ham-button {
     all: initial;
+    cursor: pointer;
   }
   img{
     height: 400px;
