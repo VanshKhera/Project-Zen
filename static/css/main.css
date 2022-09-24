@@ -201,6 +201,7 @@ body{
     height: 50px;
     top: 10px;
     left: 1450px;
+    cursor: pointer;
   }
   .logo {
     z-index: 9999;
