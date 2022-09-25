@@ -11,7 +11,7 @@
 <body>
 <!-- navbar -->
     <nav class="navbar">
-      <button class="ham-button" type="button">
+      <button class="ham-button" id="hamburger" type="button">
           <svg width="50px" height="50px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
@@ -26,6 +26,11 @@
           <a href="{% url 'home' %}"><div class="logo">Project Zen</div></a>
       </div>
     </nav>
+    <ul class="menu" id="h-menu">
+        <li class="menu_item"><a href="{% url 'Documentation' %}">Documentation</a></li>
+        <li class="menu_item"><a href="">About</a></li>
+        <li class="menu_item"><a href="">Installation</a></li>
+      </ul>
 <!-- docs -->
  <h3 class="heading docs">{% block heading %}{% endblock %}
     {% block body %}{% endblock %}
@@ -51,5 +56,6 @@
         </li>
     </ul>
 </div>
+<script src="{% static 'js/script.js' %}"></script>
     </body>
 </html>

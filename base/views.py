@@ -8,7 +8,7 @@ def code(request):
     return render(request, 'code.html')
 
 def documentation(request):
-    return render(request, 'docs.html')
+    return render(request, 'docs/button.html')
 
 def e404(request):
     return render(request, '404.html')

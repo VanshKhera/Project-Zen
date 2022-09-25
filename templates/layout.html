@@ -12,15 +12,9 @@
     {% block script %}{% endblock %}
 </head>
 <body>
-  <script>
-    function show(id){
-      var modal = document.getElementById(id);
-      modal.style.visibility="visible";
-    }
-  </script>
     <nav class="navbar">
-        <button type="button" class="ham-button" onclick="hamburgerMenu()">
-        <div class="hamburger" id="hamburger">
+        <button type="button" class="ham-button"id="hamburger">
+        <div class="hamburger">
           <svg width="50px" height="50px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
@@ -30,8 +24,8 @@
               />
             </svg>
         </div>
-        <ul class="menu">
-          <li class="menu_item"><a href="">Documentation</a></li>
+        <ul class="menu" id="h-menu">
+          <li class="menu_item"><a href="{% url 'Documentation' %}">Documentation</a></li>
           <li class="menu_item"><a href="">About</a></li>
           <li class="menu_item"><a href="">Installation</a></li>
         </ul>
