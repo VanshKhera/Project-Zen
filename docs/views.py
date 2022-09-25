@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
 # Create your views here.
-def main(request):
-    return render(request, 'docs.html')
+def locator(request, name):
+    url = str('docs/'+name+'.html')
+    return render(request, url)
