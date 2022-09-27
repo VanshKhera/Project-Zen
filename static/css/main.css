@@ -1,9 +1,18 @@
 /* This is the main file to add all the css for the basic stylesheet, refer to the (upcoming)
 figma file for the same */
 @import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins&family=Roboto+Mono:wght@300&display=swap');
-* {
+
+pre{
+  width: 900px;
+}
+body{
   font-family: 'Inter', sans-serif;
+}
+.doc-container{
+  width: 80% !important;
+  display: inline-block;
 }
 .menu_item a{
   font-family: 'Baumans';
@@ -160,9 +169,10 @@ body{
     font-size: 20px;
     line-height: 30px;
     padding-right: 65px;
+    font-family: Roboto;
   }
   .docs{
-    position: absolute;
+    position: relative;
     top: 100px;
     left: 300px;
     font-size: 54px;
@@ -175,7 +185,7 @@ body{
     height: 100vh;
     position: sticky;
     top: 80px;
-
+    display:
   }
   .sidebar li a{
     color: black;
